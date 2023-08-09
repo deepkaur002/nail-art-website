@@ -1,0 +1,60 @@
+h1{font-size: 90px;}
+body{
+    background-image:url(backg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    }
+    .navbar a{
+    float:right;   
+    font-size:25px;
+    color:rgb(110, 19, 101);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 0.5%; 
+    }
+    .navbar{ margin-right: 0.5%;}
+    .head {
+        font-size: 20px;
+        color:rgb(110, 19, 101);
+        font-family: 'Times New Roman', Times, serif;
+        margin-left:1%
+    }
+    .nail{
+        color:rgb(110, 19, 101);
+        font-size: 70px;
+        font-family:"Brush script MT";
+    }
+    .navbar a:hover{
+        background-color: rgb(238, 178, 242);
+    }
+    .D{
+        font-size: 20px;
+        font-family:'papyrus';
+        color: rgb(110, 19, 101);
+    }
+    .description{
+        font-size: 20px;
+        color:rgb(110, 19, 101);
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 1%
+    }
+    .img{
+        margin-left:1%;
+        width: 33.33%;
+        padding: 30px;
+        display: inline;
+        font-size:25px;
+      }
+      img {
+        border: 3px solid #610b5b;
+        border-style: solid;
+        border-radius: 10%;
+      }
+    .button{
+         font-size: 30px;
+         background-color: rgb(178, 92, 171);
+         
+    }
+  

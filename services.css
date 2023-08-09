@@ -1,0 +1,107 @@
+body{
+    background-image:url(bg1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    }
+.navbar a{
+    float:right;   
+    font-size:25px;
+    color:rgb(110, 19, 101);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 0.5%; 
+    }
+.navbar{ margin-right: 0.5%;}
+.navbar a:hover{
+     background-color: rgb(238, 178, 242);}
+.container{
+    position: relative;
+}
+.center {
+    position: absolute; 
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4%;
+    text-decoration:underline;
+    text-decoration-color:rgb(110, 19, 101);
+    color: rgb(110, 19, 101);
+}
+.wrapper{
+    width: 80%;
+    margin: 150px auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20%;
+}
+.contact{
+    padding:10% 0;
+}
+.content{
+  background-color: rgb(252, 205, 235);
+  width: 100px;
+  /* border: 5% solid  rgb(110, 19, 101);  */
+  padding: 40px;
+  margin-top: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style:dashed ; 
+  border-radius: 3%;
+  background-size: cover;
+  height: 200px;
+}
+.paint div {
+    width: 200px; /* Set a fixed width for the image containers */
+    border: 2px solid #2a0d0d;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 22px; /* Adjust the margin as needed to add space between the images */
+  }
+  
+  .paint img {
+    margin-top: 7px;
+    width: 100%; /* Set the width to 100% to fill the container */
+    height: 250px; /* Adjust the height as needed for the desired size */
+    object-fit: cover; /* Maintain the aspect ratio of the image while filling the container */
+  }
+/* .content h2{
+    margin-top: 50%;
+    font-family: yatra one;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(207, 131, 199);
+}
+.content p{
+    width:85%;
+    color: white;
+    background-color: rgb(207, 131, 199);
+    font-family: nunito;
+    font-size: 15px;
+}
+.single-box{
+    width:400px;
+    height:400px;
+    margin:5px;
+    transition: .7s;
+    background: linear-gradient(rgb(244, 244, 249),rgb(0, 0, 0.8),url(temp.jpg));
+    text-align: center;
+    background-size: cover;
+    background-position:center center ;
+} */
+/* .single-box:nth-child(2){
+    background: linear-gradient(rgb(0, 0, 0.8,),rgb(0, 0, 0.8)url(temp.jpg));
+}
+.single-box:nth-child(3){
+    background: linear-gradient(rgb(0, 0, 0.8,),rgb(0, 0, 0.8),url(temp.jpg));
+}
+.single-box:hover{
+    transform: scale(1.2);
+    z-index: index 2;;
+} */

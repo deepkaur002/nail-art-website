@@ -1,0 +1,51 @@
+  h1{
+    font-size:80px ;
+    font-family:"Brush script MT";
+    text-align: left;
+    color:rgb(110, 19, 101);
+    margin-left: 2%;
+    }
+body{
+    background-image:url(bg1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    }
+.navbar a{
+    float:right;   
+    font-size:25px;
+    color:rgb(110, 19, 101);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 0.5%;
+    }
+.navbar{ margin-right: 1%;}
+.navbar a:hover{
+        background-color: rgb(238, 178, 242);}
+.head{
+        font-size:20px;
+        color:rgb(110, 19, 101);
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+.img{
+  margin-left: 2%;
+  width: 33.33%;
+  padding: 10px;
+  display: inline;
+}
+img {
+    border: 3px solid #610b5b;
+    border-style: solid;
+    border-radius: 50%;
+  }
+.brush{
+    font-size:20px;
+    color:rgb(110, 19, 101);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right:2%;
+  }
+    
